@@ -1,3 +1,0 @@
-> "There two things users hate,
-> *change*, and the way things are."
-> `r tufte::quote_footer('--- \\@TheWierdWorld (ShowerThoughts Twitter Account)')`
