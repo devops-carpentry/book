@@ -38,7 +38,9 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
-# Quarto 
+# Quarto
 /.quarto/
 /_book/
 
+
+/.luarc.json

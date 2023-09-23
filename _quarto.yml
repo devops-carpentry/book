@@ -3,44 +3,18 @@ project:
 
 
 book:
-  title: "DevOps Carpentry"
-  subtitle: "A Researcher's Guide to the Open Source Ecosystem"
+  title: "Research Software Engineering"
+  subtitle: "A Guide to the Open Source Ecosystem"
   author: "Matthias Bannert"
   cover-image: images/wizardry.jpg
-  date: "7/17/2023"
+  date: "9/23/2023"
   search: true
   sharing: [twitter]
   chapters:
     - index.qmd
-    - intro.qmd
-    - stack-developer-toolkit.qmd
-    - programming.qmd
-    - interaction.qmd
-    - version-control.qmd
-    - data-management.qmd
-    - infrastructure.qmd
-    - automation.qmd
-    - community.qmd
-    - publishing.qmd
-    - case-studies.qmd
-    - appendix.qmd
-    - references.qmd
-
-bibliography: references.bib
 execute: 
   freeze: true
 format:
-  # html:
-  #   theme: cosmo
-  pdf:
-    documentclass: krantz
-    pdf-engine: pdflatex
-    prefer-html: true
-    toc: true
-    keep-tex: true
-    lof: true
-    lot: true
-    fontsize: 12pt
-    hyperrefoptions: 
-      - linktoc=none
-    
+   html:
+     theme: cosmo
+  
